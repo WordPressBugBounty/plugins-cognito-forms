@@ -45,7 +45,8 @@ if ( !class_exists('CognitoAPI') ) {
 		// Builds form embed script
 		public static function get_form_embed_script( $public_key, $formId ) {
 			$base = self::$formsBase;
-			$public_short_guid = self::guid_to_short_guid( $public_key );
+			$public_short_guid = esc_attr(self::guid_to_short_guid( $public_key ));
+			$formId = esc_attr($formId);
 
 			return <<< EOF
 				<script src="{$base}/f/seamless.js" data-key="{$public_short_guid}" data-form="{$formId}"></script>

@@ -4,7 +4,7 @@ Donate link: https://www.cognitoforms.com
 Tags: form, forms, cognito, cognito forms, create form, create forms, form builder, form creator, form generator, html form, online form, online form builder, online forms, registration, survey, surveys, web form, web forms, embed, anti-spam, email form, email, responsive, payment
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 2.0.7
+Stable tag: 2.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
